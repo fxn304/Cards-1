@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 500;
+}
+
+body {
+  color: #fff;
+  width: 100vw;
+  min-height: 100vh;
+  background: no-repeat url(bg.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.checkmark,
+small {
+  color: #00ffb3;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.card {
+  width: 300px;
+  height: 450px;
+  padding: 1.25rem;
+  margin: 1rem;
+  border-radius: 20px;
+  background-color: rgba(0, 12, 36, 0.8);
+  box-shadow: 0 0 15px rgba(128, 128, 128, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card small {
+  font-size: 1.5rem;
+}
+
+.card .card-paragraph {
+  font-size: 0.75rem;
+  margin: 0.75rem 0 1.25rem;
+  max-width: 80%;
+}
+
+.card .dollar-symbol .ammount-dollars {
+  font-size: 3rem;
+}
+
+.card button {
+  width: 100%;
+  height: 2rem;
+  font-weight: 700;
+  border: 1px solid #000;
+  border-radius: 15px;
+  margin: 1rem 0;
+  color: #ccc;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.card .offer-details {
+  margin: 1rem 0;
+  padding-bottom: 16px;
+  border-bottom: 2px solid #cccccc4b;
+}
+
+.card .offer-details:last-of-type {
+  border: 0;
+}
+
+.card-2 {
+  height: 480px;
+}
+
+.card-2 small {
+  color: #e100ff;
+}
+
+.card-2 .checkmark {
+  color: #e100ff;
+}
+
+.card-2 .card-paragraph {
+  margin-bottom: 0.7rem;
+}
+
+.card-2 .div-popular-card {
+  display: flex;
+  justify-content: end;
+}
+
+.card-2 .div-popular-card p {
+  text-align: end;
+  width: 4rem;
+  height: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  font-size: 0.75rem;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.card-2 button {
+  background-color: rgba(225, 0, 255, 0.8);
+}
+
+@media screen and (max-width: 1080px) {
+  .container {
+    flex-direction: column;
+  }
+}
